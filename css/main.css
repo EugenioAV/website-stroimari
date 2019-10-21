@@ -46,3 +46,28 @@ body {
     text-align: left;
     font-size: 1vw;
 }
+
+.navbar {
+    background-color: #009999;
+}
+
+.nav {
+    justify-content: center;
+    width: 100%;
+}
+
+.nav_item {
+    margin-right: 3%;
+}
+
+.nav_item a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.3vw;
+
+}
+
+.nav_item a:hover {
+    color: #006363;
+    font-weight: 500;
+}
