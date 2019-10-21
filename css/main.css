@@ -1,3 +1,13 @@
+@font-face {
+    font-family: "SegoeUI";
+    src: url("../font/SegoeUI.ttf");
+}
+
+@font-face {
+    font-family: "SegoeUILight";
+    src: url("../font/SegoeUILight.ttf");
+}
+
 html {
     height: 100%;
     width: 100%;
@@ -10,4 +20,29 @@ body {
     padding: 0;
     font-family: "Segoe UI", "SegoeUI", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
     font-size: 1rem;
+}
+
+.header {
+    justify-content: left;
+    margin: 2%;
+}
+
+.header .logo img {
+    height: 6vw;
+}
+
+.header .item {
+    display: flex;
+}
+
+.header .item img {
+    height: 2vw;
+    margin: auto;
+}
+
+.header .item p {
+    font-family: "Segoe UI Light", "SegoeUILight", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+    margin: auto;
+    text-align: left;
+    font-size: 1vw;
 }
