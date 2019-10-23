@@ -23,51 +23,52 @@ body {
 }
 
 .header {
-    justify-content: left;
-    margin: 2%;
+    justify-content: center;
+    margin: 2vw 0 2vw 0;
+}
+
+.header .logo, .header .item{
+    display: flex;
 }
 
 .header .logo img {
-    height: 6vw;
-}
-
-.header .item {
-    display: flex;
+    height: 5vw;
+    margin: auto 0 auto 5vw;
 }
 
 .header .item img {
     height: 2vw;
-    margin: auto;
+    margin: auto 0 auto 0;
 }
 
 .header .item p {
     font-family: "Segoe UI Light", "SegoeUILight", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
-    margin: auto;
+    margin: auto 0 auto 10%;
     text-align: left;
     font-size: 1vw;
 }
 
-.navbar {
+.navigation_bar {
     background-color: #009999;
-}
-
-.nav {
     justify-content: center;
     width: 100%;
+    height: 3vw;
+    display: flex;
 }
 
-.nav_item {
-    margin-right: 3%;
-}
 
-.nav_item a {
+.navigation_bar  a {
+    margin: auto 0 auto 0;
+    padding: 0;
     text-decoration: none;
     color: #ffffff;
     font-size: 1.3vw;
-
+    text-align: center;
 }
 
-.nav_item a:hover {
+.navigation_bar a:hover {
     color: #006363;
     font-weight: 500;
+    border-right: 1px solid rgba(12,84,96,0.3);
+    border-left: 1px solid rgba(12,84,96,0.3);
 }
