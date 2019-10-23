@@ -7,6 +7,7 @@
     <script src="./side_packages/jquery/jquery%203.3.1.min.js"></script>
     <script src="./side_packages/popper/popper.min.js"></script>
     <script src="./side_packages/bootstrap/js/bootstrap.js"></script>
+    <script src="./js/main.js"></script>
 
     <link rel="stylesheet" type="text/css" href="./side_packages/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css"
@@ -17,7 +18,7 @@
 </head>
 <body>
 <div class="container-fluid">
-    <div class="row header">
+    <div id="header" class="row">
         <div class="col-4 p-0 logo">
             <img src="img/logo.png">
         </div>
@@ -36,8 +37,8 @@
     </div>
 
     <div class="row">
-        <div class="col-12 p-0 navigation_bar justify-content-center">
-            <a class="col-md" href="#main">О компании</a>
+        <div id="navigation_bar" class="col-12 p-0 justify-content-center">
+            <a class="col-md" href="#main_block">О компании</a>
             <a class="col-md" href="#carousel-services">Услуги</a>
             <a class="col-md" href="#advantages">Преимущества</a>
             <a class="col-md" href="#sip-technology">Технология SIP</a>
@@ -45,7 +46,7 @@
         </div>
     </div>
     <div class="row">
-        <div id="main" class="col-12 p-0 main-block">
+        <div id="main_block" class="col-12 p-0">
             <div class="main-block-border">
                 <div class="main-offer">
                     <p class="main-offer-title">

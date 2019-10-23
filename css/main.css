@@ -22,33 +22,33 @@ body {
     font-size: 1rem;
 }
 
-.header {
+#header {
     justify-content: center;
     margin: 2vw 0 2vw 0;
 }
 
-.header .logo, .header .item{
+#header .logo, #header .item {
     display: flex;
 }
 
-.header .logo img {
+#header .logo img {
     height: 5vw;
     margin: auto 0 auto 2vw;
 }
 
-.header .item img {
+#header .item img {
     height: 2vw;
     margin: auto 0 auto 0;
 }
 
-.header .item p {
+#header .item p {
     font-family: "Segoe UI Light", "SegoeUILight", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
     margin: auto 0 auto 10%;
     text-align: left;
     font-size: 1vw;
 }
 
-.navigation_bar {
+#navigation_bar {
     background-color: #009999;
     justify-content: center;
     width: 100%;
@@ -56,8 +56,16 @@ body {
     display: flex;
 }
 
+.navigation_bar_fixed {
+    background-color: #008080 !important;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    box-shadow: 0 2px 2px -2px gray;
+    opacity: 0.95;
+}
 
-.navigation_bar  a {
+#navigation_bar a {
     margin: auto 0 auto 0;
     padding: 0;
     text-decoration: none;
@@ -66,14 +74,14 @@ body {
     text-align: center;
 }
 
-.navigation_bar a:hover {
-    color: #006363;
+#navigation_bar a:hover {
+    color: #004747;
     font-weight: 500;
-    border-right: 1px solid rgba(12,84,96,0.3);
-    border-left: 1px solid rgba(12,84,96,0.3);
+    border-right: 1px solid rgba(12, 84, 96, 0.3);
+    border-left: 1px solid rgba(12, 84, 96, 0.3);
 }
 
-.main-block {
+#main_block {
     height: 48vw;
     max-width: 100%;
     background: url("../img/main-min.jpg") no-repeat center;
