@@ -135,3 +135,51 @@ body {
     color: #02353e;
     font-weight: 700;
 }
+
+#main_goal {
+    font-family:  "Segoe UI Light", "SegoeUILight", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+    text-align: left;
+    padding-top: 4%;
+    color: #002024;
+    padding-left: 5%;
+    display: inline-flex;
+}
+
+.main-goal-description {
+    padding: 0 0 0 3%;
+    border-radius: 0% 0% 0% 0% / 0% 0% 0% 0% ;
+    position: relative;
+    box-shadow: 5px 5px rgba(0, 0, 0, .15);
+    transition: all .5s ease;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    margin: 0 auto auto auto;
+}
+
+.main-goal-description:hover {
+  border-radius: 0% 0% 50% 50% / 0% 0% 5% 5% ;
+  box-shadow: 10px 10px rgba(0, 0, 0, .25);
+}
+
+.main-goal-description .text-selector {
+    color: #ffffff;
+    background-color: rgba(21, 145, 146, 0.7);
+}
+
+.main-goal-description h2 {
+    padding-top: 4%;
+    margin: 0;
+    font-weight: 700;
+    font-size: 1.7vw;
+    line-height: 1.5;
+}
+
+.main-goal-description p {
+    padding: 5% 3% 3% 0;
+    font-size: 1.5vw;
+}
+
+.main-goal-video {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
