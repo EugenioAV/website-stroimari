@@ -33,7 +33,7 @@ body {
 
 .header .logo img {
     height: 5vw;
-    margin: auto 0 auto 5vw;
+    margin: auto 0 auto 2vw;
 }
 
 .header .item img {
@@ -71,4 +71,59 @@ body {
     font-weight: 500;
     border-right: 1px solid rgba(12,84,96,0.3);
     border-left: 1px solid rgba(12,84,96,0.3);
+}
+
+.main-block {
+    height: 48vw;
+    max-width: 100%;
+    background: url("../img/main-min.jpg") no-repeat center;
+    background-size: cover;
+    position: relative;
+}
+
+.main-block-border {
+    position: absolute;
+    width: 90%;
+    margin: 5%;
+    border: 3vw double rgba(255, 255, 255, 0.75);
+}
+
+.main-offer {
+    padding: 2%;
+    text-align: center;
+    position: relative;
+    color: #002024;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.main-offer-title {
+    font-family: "Segoe UI", "SegoeUI", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+    font-size: 2.7vw;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 2%;
+}
+
+.main-offer-description {
+    font-family: "Segoe UI Light", "SegoeUILight", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+    padding: 2%;
+    font-size: 2vw;
+    font-weight: 600;
+    text-align: center;
+    color: black;
+    display: flex;
+}
+
+.main-offer-description .glyphicon {
+    font-size: 2.5vw !important;
+}
+
+.main-offer-description p {
+    padding: 0 0 0 1vw;
+    margin: 0;
+}
+
+.text-selector {
+    color: #02353e;
+    font-weight: 700;
 }
