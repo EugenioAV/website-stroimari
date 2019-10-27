@@ -139,20 +139,24 @@ body {
 #main_goal {
     font-family:  "Segoe UI Light", "SegoeUILight", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
     text-align: left;
-    padding-top: 4%;
+    margin-top: 6%;
     color: #002024;
     padding-left: 5%;
     display: inline-flex;
+    background: url("../img/lines_background.png") no-repeat;
+    background-size: contain;
 }
 
 .main-goal-description {
     padding: 0 0 0 3%;
-    border-radius: 0% 0% 0% 0% / 0% 0% 0% 0% ;
+    border-radius: 0% 0% 0% 0% / 0% 0% 0% 0%;
     position: relative;
     box-shadow: 5px 5px rgba(0, 0, 0, .15);
     transition: all .5s ease;
     border: 1px solid rgba(0, 0, 0, 0.2);
-    margin: 0 auto auto auto;
+    margin: auto;
+    font-weight: bold;
+    background-color: white;
 }
 
 .main-goal-description:hover {
@@ -176,10 +180,89 @@ body {
 .main-goal-description p {
     padding: 5% 3% 3% 0;
     font-size: 1.5vw;
+    font-style: italic;
+}
+
+.main-goal-description div {
+    padding: 1%;
+    font-size: 1.1vw;
+    color: #5a6268;
+    text-align: right;
 }
 
 .main-goal-video {
     width: 100%;
     height: 100%;
     margin: auto;
+    border: 0.3vw solid #018f8f;
+    background-color: white;
+}
+
+.title {
+    font-family:  "Segoe UI", "SegoeUILight", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+    text-align: center;
+    margin-top: 10%;
+    font-size: 3vw;
+    text-transform: uppercase;
+}
+
+.line {
+    border: 1px solid #000000;
+    margin: 0 40% 2% 40%;
+}
+
+.services-description {
+    font-family:  "Segoe UI", "SegoeUILight", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+    padding: 1%;
+    margin: 0 2% 0 2%;
+    font-size: 1.5vw;
+    text-align: center;
+    background-color: rgba(23, 162, 184, 0.2);
+    border-radius: 10px;
+}
+
+#carousel-services {
+    padding-top: 2%;
+    width: 80%;
+    margin: auto;
+}
+
+.carousel-caption {
+    top: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    bottom: 0 !important;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    background-color: rgba(0, 106, 106, 0.15);
+    border-top: 1px solid #018f8f;
+    border-bottom: 1px solid #018f8f;
+}
+
+.carousel-caption h3 {
+    font-size: 2vw;
+    text-transform: uppercase;
+    color: #0c5460;
+    font-weight: bold;
+    font-family:  "Segoe UI Light", "SegoeUILight", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+}
+
+.carousel-control-prev {
+    width: 0 !important;
+    margin-left: -5%;
+}
+
+.carousel-control-next {
+    width: 0 !important;
+    margin-right: -3%;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-image: none;
+    font-size: 3vw;
+    margin: 0 !important;
+    padding: 0 !important;
+    color: #000000;
 }
