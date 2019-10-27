@@ -137,7 +137,7 @@ body {
 }
 
 #main_goal {
-    font-family:  "Segoe UI Light", "SegoeUILight", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+    font-family: "Segoe UI Light", "SegoeUILight", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
     text-align: left;
     margin-top: 6%;
     color: #002024;
@@ -160,8 +160,8 @@ body {
 }
 
 .main-goal-description:hover {
-  border-radius: 0% 0% 50% 50% / 0% 0% 5% 5% ;
-  box-shadow: 10px 10px rgba(0, 0, 0, .25);
+    border-radius: 0% 0% 50% 50% / 0% 0% 5% 5%;
+    box-shadow: 10px 10px rgba(0, 0, 0, .25);
 }
 
 .main-goal-description .text-selector {
@@ -199,7 +199,7 @@ body {
 }
 
 .title {
-    font-family:  "Segoe UI", "SegoeUILight", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+    font-family: "Segoe UI", "SegoeUILight", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
     text-align: center;
     margin-top: 10%;
     font-size: 3vw;
@@ -207,13 +207,14 @@ body {
 }
 
 .line {
-    border: 1px solid #000000;
+    border-bottom: 0.2vw solid #000000;
     margin: 0 40% 2% 40%;
 }
 
 .services-description {
-    font-family:  "Segoe UI", "SegoeUILight", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
-    padding: 1%;
+    font-family: "Segoe UI Light", "SegoeUILight", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+    font-weight: bold;
+    padding: 2%;
     margin: 0 2% 0 2%;
     font-size: 1.5vw;
     text-align: center;
@@ -245,7 +246,7 @@ body {
     text-transform: uppercase;
     color: #0c5460;
     font-weight: bold;
-    font-family:  "Segoe UI Light", "SegoeUILight", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+    font-family: "Segoe UI Light", "SegoeUILight", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
 }
 
 .carousel-control-prev {
@@ -265,4 +266,51 @@ body {
     margin: 0 !important;
     padding: 0 !important;
     color: #000000;
+}
+
+.feedback {
+    margin: 5% 3%;
+    padding: 3%;
+    border: 1px solid rgba(90, 98, 104, 0.4);
+    border-radius: 20px;
+}
+
+.builder-feedback {
+    background: url("../img/builder_feedback.png") no-repeat;
+    background-size: contain;
+    height: 25vw;
+    margin: auto;
+    padding: 0;
+}
+
+.feedback-title {
+    text-align: left;
+    font-size: 2.2vw;
+    line-height: 2.2vw;
+    padding-left: 2%;
+    padding-bottom: 2%;
+    font-family: "Segoe UI Light", "SegoeUILight", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+    font-weight: bold;
+    border-bottom: 0.1vw solid #000000;
+}
+
+.feedback-form  {
+    margin-top: 2%;
+    padding-left: 2%;
+}
+
+.feedback-button {
+    width: 100%;
+    background-color: #01a1a1;
+    color: white;
+    font-family: "Segoe UI Light", "SegoeUILight", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+    text-transform: uppercase;
+    font-size: 1.2vw;
+    font-weight: bold;
+    padding: 5%;
+    border: none;
+}
+
+.feedback-button:hover {
+    cursor: pointer;
 }
