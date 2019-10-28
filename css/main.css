@@ -147,12 +147,11 @@ img {
 #main_goal {
     font-family: "Segoe UI Light", "SegoeUILight", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
     text-align: left;
-    margin-top: 6%;
+    padding-top: 5%;
+    padding-bottom: 5%;
     color: #002024;
-    padding-left: 5%;
+    padding-left: 3%;
     display: inline-flex;
-    background: url("../img/lines_background.png") no-repeat;
-    background-size: contain;
 }
 
 .main-goal-description {
