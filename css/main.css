@@ -22,6 +22,14 @@ body {
     font-size: 1rem;
 }
 
+img {
+    pointer-events: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
 #header {
     justify-content: center;
     margin: 2vw 0 2vw 0;
@@ -81,7 +89,7 @@ body {
     border-left: 1px solid rgba(12, 84, 96, 0.3);
 }
 
-#main_block {
+#about {
     height: 48vw;
     max-width: 100%;
     background: url("../img/main-min.jpg") no-repeat center;
@@ -275,12 +283,20 @@ body {
     border-radius: 20px;
 }
 
-.builder-feedback {
-    background: url("../img/builder_feedback.png") no-repeat;
-    background-size: contain;
+.img-feedback {
     height: 25vw;
     margin: auto;
     padding: 0;
+}
+
+.builder-feedback {
+    background: url("../img/builder_feedback.png") no-repeat;
+    background-size: contain;
+}
+
+.planner-feedback {
+    background: url("../img/planner_feedback.png") no-repeat;
+    background-size: contain;
 }
 
 .feedback-title {
@@ -330,4 +346,63 @@ body {
     padding: 5%;
     font-size: 1.6vw;
     font-weight: bold;
+}
+
+.advantages-addition {
+    background-color: rgba(0, 153, 153, 0.05);
+}
+
+.advantages-addition-text {
+    text-align: center;
+    margin-left: 5%;
+    margin-top: 2%;
+    width: 90%;
+    height: 80%;
+    padding: 2%;
+    color: #000000;
+}
+
+.advantages-addition-text div {
+    font-size: 1.8vw;
+    font-weight: bold;
+    padding-bottom: 2%;
+    font-family:  "Segoe UI Light", "SegoeUILight", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+
+}
+
+.advantages-addition-text p {
+    font-size: 1.5vw;
+    font-weight: bold;
+    font-family:  "Segoe UI Light", "SegoeUILight", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+}
+
+.plan-description {
+    width: 90%;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.22);
+    background-color: white;
+}
+
+.plan-description h3 {
+    padding: 3% 5% 3% 5%;
+    font-size: 2.2vw;
+}
+
+.plan {
+    width: 90%;
+    margin-left: 5%;
+    margin-bottom: 2%;
+}
+
+.plan img {
+    width: 40%;
+    margin-left: 30%;
+    margin-bottom: 5%;
+    background-color: white;
+}
+
+.plan p {
+    text-align: center;
+    font-size: 1vw;
 }
