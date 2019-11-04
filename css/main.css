@@ -207,7 +207,7 @@ img {
 .title {
     font-family: "Segoe UI", "SegoeUILight", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
     text-align: center;
-    margin-top: 15%;
+    margin-top: 12%;
     font-size: 3vw;
     text-transform: uppercase;
 }
@@ -337,7 +337,7 @@ img {
     margin-top: 5%;
     width: 100%;
     text-align: center;
-    font-family:  "SegoeUILight", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+    font-family:  "Segoe UI Light", "SegoeUILight", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
 }
 
 .advantages-items img {
@@ -361,8 +361,7 @@ img {
     width: 90%;
     height: 80%;
     padding: 2%;
-    color: #000000;
-
+    color: #062931;
 }
 
 .advantages-addition-text div {
@@ -370,7 +369,7 @@ img {
     font-weight: bold;
     padding-bottom: 2%;
     font-family:  "Segoe UI Light", "SegoeUILight", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
-
+    text-transform: uppercase;
 }
 
 .advantages-addition-text p {
@@ -408,4 +407,100 @@ img {
 .plan p {
     text-align: center;
     font-size: 1vw;
+}
+
+
+.sip-technology-description {
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    font-family: "Segoe UI Light", "SegoeUILight", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+    font-weight: bold;
+}
+
+.sip-technology-description img {
+    width: 100%;
+    margin-left: -5vw;
+}
+
+.sip-technology-description .text {
+    font-size: 1.5vw;
+    margin-top: 3%;
+    margin-left: -2vw;
+}
+
+.sip-technology-description .addition {
+    background-color: rgba(23, 162, 184, 0.2);
+    border-radius: 2vw;
+    margin-top: 3%;
+    padding: 3%;
+    font-size: 1.2vw;
+}
+
+.sip-technology-items .nav a {
+    font-size: 1.5vw;
+    font-family: "Segoe UI Light", "SegoeUILight", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+    color: #0c5460;
+    font-weight: 600;
+    border-bottom: 1px solid rgba(12, 84, 96, 0.1);
+    border-radius: 10px;
+}
+
+.sip-technology-items .nav .active {
+    background-color: rgba(12, 84, 100, 0.9);
+}
+
+.sip-technology-items .nav span {
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+    padding-right: 5px;
+    margin-right: 5px;
+}
+
+.sip-technology-items-description .tab-pane {
+    padding-top: 3%;
+    padding-right: 3%;
+    font-size: 1.3vw;
+    font-weight: bold;
+    font-family: "Segoe UI Light", "SegoeUILight", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+    text-align: justify;
+}
+
+.sip-technology-items-description .tab-pane p {
+    text-indent: 3%;
+}
+
+.sip-technology-items-description .tab-pane li {
+    font-size: 1.2vw;
+}
+
+.sip-technology-items-description .circle-text {
+    box-shadow: 0 0 10px 3px rgba(12, 84, 100, 0.3);
+    background-color: rgba(94, 204, 204, 0.3);
+    border-radius: 10px;
+    padding: 2%;
+    margin: 3%;
+}
+
+.myths {
+    margin-top: 5%;
+    margin-bottom: 2%;
+    width: 100%;
+    font-size: 2vw;
+    font-weight: 600;
+    font-family: "Segoe UI Light", "SegoeUILight", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+    text-align: center;
+}
+
+.myths-text {
+    font-size: 1.5vw;
+    padding: 3%;
+    font-family: "Segoe UI Light", "SegoeUILight", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    background-color: rgba(94, 204, 204, 0.3);
+    border-radius: 10px;
+}
+
+.myths-video {
+    margin: 3%;
 }
