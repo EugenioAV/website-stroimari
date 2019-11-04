@@ -7,6 +7,7 @@
     <script src="./side_packages/jquery/jquery%203.3.1.min.js"></script>
     <script src="./side_packages/popper/popper.min.js"></script>
     <script src="./side_packages/bootstrap/js/bootstrap.js"></script>
+    <script src="./side_packages/PDFObject/pdfobject.js"></script>
     <script src="./js/main.js"></script>
 
     <link rel="stylesheet" type="text/css" href="./side_packages/bootstrap/css/bootstrap.min.css">
@@ -40,11 +41,12 @@
         <div id="navigation_bar" class="col-12 p-0 justify-content-center">
             <a class="col-md" href="#about">О компании</a>
             <a class="col-md" href="#services">Услуги</a>
-            <a class="col-md" href="#projects">Проекты</a>
             <a class="col-md" href="#advantages">Преимущества</a>
+            <a class="col-md" href="#projects">Проекты</a>
             <a class="col-md" href="#sip-technology">Технология SIP</a>
         </div>
     </div>
+
     <div class="row">
         <div id="about" class="col-12 p-0">
             <div class="main-block-border">
@@ -74,6 +76,7 @@
             </div>
         </div>
     </div>
+
     <div class="row">
         <div id="main_goal" class="col-12">
             <div class="main-goal-description col-5">
@@ -238,6 +241,7 @@
             </div>
         </div>
     </div>
+
     <div id="advantages">
         <div class="advantages-title">
             <h2 class="title">Преимущества</h2>
@@ -317,6 +321,66 @@
             </div>
         </div>
     </div>
+
+    <div id="projects">
+        <div class="project-title">
+            <h2 class="title">Типовые проекты</h2>
+            <p class="line"></p>
+        </div>
+        <div class="project-description">
+            <p>
+                Наша строительная компания предоставляет большой выбор проектов и гибких цен. При строительстве
+                стандартного или индивидуально-разработанного проекта мы обязательно учтем все Ваши пожелания. Все
+                работы выполним в установленные сроки, а высокое качество подтвердим гарантией.
+            </p>
+            <div class="addition">
+                Вы можете ознакомиться с готовыми проектами, предоставляемые нашей компанией нажав на интересующий
+                Вас тип дома ниже.
+                <span class="glyphicon glyphicon-circle-arrow-down"></span>
+            </div>
+        </div>
+        <div class="project-items">
+            <div class="row">
+                <div class="col" id="baths" onclick="pdf_view(this)">
+                    <div class="img_wrap">
+                        <img src="./img/baths.jpg" class="rounded-circle">
+                        <div class="img_description_layer">
+                            <p class="img_description"><span class="glyphicon glyphicon-search"></span></p>
+                        </div>
+                    </div>
+                    <p>Бани</p>
+                </div>
+                <div class="col" id="house" onclick="pdf_view(this)">
+                    <div class="img_wrap">
+                        <img src="./img/house.jpg" class="rounded-circle">
+                        <div class="img_description_layer">
+                            <p class="img_description"><span class="glyphicon glyphicon-search"></span></p>
+                        </div>
+                    </div>
+                    <p>Дома</p>
+                </div>
+                <div class="col" id="commercial_property" onclick="pdf_view(this)">
+                    <div class="img_wrap">
+                        <img src="./img/commercial_property.jpg" class="rounded-circle">
+                        <div class="img_description_layer">
+                            <p class="img_description"><span class="glyphicon glyphicon-search"></span></p>
+                        </div>
+                    </div>
+                    <p>Коммерческая недвижимость</p>
+                </div>
+                <div class="col" id="datcha" onclick="pdf_view(this)">
+                    <div class="img_wrap">
+                        <img src="./img/datcha.jpg" class="rounded-circle">
+                        <div class="img_description_layer">
+                            <p class="img_description"><span class="glyphicon glyphicon-search"></span></p>
+                        </div>
+                    </div>
+                    <p>Дачи</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <div id="sip-technology">
         <div class="sip-technology-title">
             <h2 class="title">Технология SIP</h2>
@@ -333,9 +397,10 @@
                 строительный материал
                 обладающий большой механической прочностью, очень большой теплозащитой, абсолютной экологичностью при
                 невысокой стоимости.
-                 <div class="addition">
+                <div class="addition">
                     Подробную информацию о преимуществах данной технологии вы можете узнать, используя
-                    панель слева - нажмите на интересующий Вас заголовок. Мы постарались собрать для Вас полную информацию
+                    панель слева - нажмите на интересующий Вас заголовок. Мы постарались собрать для Вас полную
+                    информацию
                     о технологии SIP, чтобы Вы были уверены в ее надежности!
                 </div>
             </div>
@@ -475,7 +540,8 @@
                             из
                             кирпича, газобетона или дерева.</p>
 
-                        <div class="circle-text">Стены из SIP-панелей обладают высокой влагостойкостью, поэтому без отопления дом не
+                        <div class="circle-text">Стены из SIP-панелей обладают высокой влагостойкостью, поэтому без
+                            отопления дом не
                             промерзает,
                             а низкая теплоемкость стен позволяет быстро протопить дом. В мороз, при температуре -15 …
                             -20 °С,
@@ -497,7 +563,8 @@
                             комфортную
                             внутреннюю планировку.
                         </p>
-                        <div class="circle-text">Кроме того для внешней и внутренней отделки домов из SIP-панелей можно использовать широкий
+                        <div class="circle-text">Кроме того для внешней и внутренней отделки домов из SIP-панелей можно
+                            использовать широкий
                             перечень материалов. Вы можете выбрать любой профиль крыши и использовать разнообразные
                             кровельные покрытия. Все это позволяет создать неповторимый образ Вашего дома.
                         </div>
@@ -630,6 +697,7 @@
             </div>
         </div>
     </div>
+
     <div id="main_feedback" class="row feedback">
         <div class="col-9">
             <div class="feedback-title">
@@ -658,6 +726,25 @@
             </div>
         </div>
         <div class="col-3 img-feedback planner-feedback"></div>
+    </div>
+</div>
+<div class="modal fade" id="project_view_modal" tabindex="-1" role="dialog" aria-labelledby="project_view_modal_title"
+     aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="project_view_modal_title">Типовые проекты</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body p-0 project-modal-body">
+                <div id="pdf_object"></div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn modal-button" data-dismiss="modal">Закрыть</button>
+            </div>
+        </div>
     </div>
 </div>
 </body>

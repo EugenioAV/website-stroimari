@@ -11,3 +11,20 @@ $(document).ready(function () {
         }
     });
 });
+
+function pdf_view(e) {
+    let id = e.id;
+    let url = './pdf/' + id + '.pdf';
+
+    if (PDFObject.supportsPDFs) {
+        PDFObject.embed(url, "#pdf_object");
+    } else {
+        let body = $('.project-modal-body');
+
+        body.html('<p>Ваш браузер не поддерживает просмотр PDF-файлов, но вы можете скачать его, чтобы посмотреть' +
+            ' готовые проекты нашей компании на Вашем устройстве.</p>' +
+            '<a href=' + url + ' class="button" download><i class="fa fa-download"></i>Скачать PDF-файл с проектом</a>')
+    }
+
+    $('#project_view_modal').modal('show');
+}
